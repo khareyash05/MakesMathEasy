@@ -130,6 +130,7 @@ function collapseit(openit) {
 
 function openit(id) {
     var ids = [
+        "#dblFact",
         "#sumDiv",
         "#smPrime",
         "#nextPrime",
@@ -176,6 +177,7 @@ function openit(id) {
         "#differentiatecollapse",
         "#partialdiffcollapse",
         "#3d-solid",
+        "#parabolacalc",
         "#chng-vol-sphere",
         "#laplacecollapse",
         "#limitscollapse",
@@ -293,7 +295,6 @@ function openit(id) {
         "#vector",
         "#vec",
         "#diffeqn",
-        "#manhats",
         "#pdiffeqn",
         "#maxmin",
         "#locroots",
@@ -306,6 +307,7 @@ function openit(id) {
         "#lappro",
         "#rankcal",
         "#bayes-probabilitycollapse",
+        "#hypergeos",
         "#condprobability",
         "#prism",
         "#pentprism",
@@ -316,11 +318,13 @@ function openit(id) {
         "#octahedron",
         "#repp",
         "#partial_sphere",
+        "#hypergeomeans",
         "#mtm",
         "#igc",
         "#res1",
         "#clr",
         '#dodecahedron',
+        "#vpds",
         "#icosahedron",
         "#anglecon",
         "#frustum",
@@ -359,7 +363,8 @@ function openit(id) {
         "#lrcs",
         "#perats",
         "#mecs",
-        "#chng-vol-cube"
+        "#chng-vol-cube",
+        "#squarerootcalc",
     ];
     for (i = 0; i < ids.length; i++) {
         if (ids[i] != id) {
